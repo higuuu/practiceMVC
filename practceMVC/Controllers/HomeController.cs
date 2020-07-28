@@ -17,9 +17,10 @@ namespace practiceMVC.Controllers
         {
             _logger = logger;
         }
-
+      
         public IActionResult Index()
         {
+            ViewData["Message"] = "Your application description page.";
             return View();
         }
 
