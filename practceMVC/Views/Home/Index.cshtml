@@ -1,9 +1,15 @@
-﻿@{
+﻿@model practiceMVC.Models.MyItem
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <h3>@ViewData["Message"]</h3>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div>
+        <p>情報を表示します。</p>
+        <div>@Html.Encode(Model.Name)</div>
+        <div>@Html.Encode(Model.Value)</div>
+        <div>@Html.Encode(Model.Code)</div>
+    </div>
 </div>

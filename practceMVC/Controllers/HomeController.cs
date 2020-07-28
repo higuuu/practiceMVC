@@ -20,8 +20,11 @@ namespace practiceMVC.Controllers
       
         public IActionResult Index()
         {
-            ViewData["Message"] = "Your application description page.";
-            return View();
+            MyItem item = new MyItem();
+            item.Name = "dog";
+            item.Value = 0;
+            item.Code = "ok";
+            return View(item);
         }
 
         public IActionResult Privacy()
