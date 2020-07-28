@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{51DA5A47-13F9-4E62-AD95-E1D9C6B7B836}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="practceMVC/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="practceMVC/Models/MyItemClass.cs">
     <Files>
-      <File FileName="practceMVC/Controllers/HomeController.cs" Line="8" Column="21" />
+      <File FileName="practceMVC/Controllers/HomeController.cs" Line="22" Column="10" />
       <File FileName="practceMVC/Models/ErrorViewModel.cs" Line="8" Column="1" />
-      <File FileName="practceMVC/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="practceMVC/Views/Home/Index.cshtml" Line="4" Column="1" />
       <File FileName="practceMVC/Views/Home/Privacy.cshtml" Line="1" Column="1" />
       <File FileName="practceMVC/Views/_ViewImports.cshtml" Line="4" Column="1" />
       <File FileName="practceMVC/Views/_ViewStart.cshtml" Line="2" Column="18" />
@@ -13,7 +13,8 @@
       <File FileName="practceMVC/Program.cs" Line="17" Column="10" />
       <File FileName="practceMVC/Startup.cs" Line="16" Column="32" />
       <File FileName="practceMVC/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="practceMVC/Views/Shared/_Layout.cshtml" Line="11" Column="13" />
+      <File FileName="practceMVC/Views/Shared/_Layout.cshtml" Line="20" Column="56" />
+      <File FileName="practceMVC/Models/MyItemClass.cs" Line="8" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,13 +25,13 @@
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="MyItemClass.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
